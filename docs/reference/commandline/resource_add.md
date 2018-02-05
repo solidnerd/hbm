@@ -102,6 +102,7 @@ Flags:
 | task_inspect			| stask tasks		| Get details on a task							|
 
 ## Capability
+By default Docker drops all capabilities except [those needed](https://github.com/moby/moby/blob/master/oci/defaults.go#L14-L30). You can see a full list of available capabilities in Linux [manpages](http://man7.org/linux/man-pages/man7/capabilities.7.html).
 
 ## Config
 | Action 	 		| Description			|

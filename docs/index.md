@@ -39,6 +39,8 @@ By default Harbormaster plugin prevents from executing commands and certains par
 * any ports added with parameter `--port=`
 * any volumes mounted with parameter `-v`
 * any logging with parameters `--log-driver` and `--log-opt`
+* `--sysctl`
+* `--security-opt`
 
 ## About this guide
 
